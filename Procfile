@@ -1,2 +1,1 @@
-web: gunicorn --pythonpath mysite mysite.wsgi
-gunicorn --pythonpath <directory_path> <project_name>.wsgi
+web: gunicorn --pythonpath django-test django_test.wsgi
